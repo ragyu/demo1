@@ -62,8 +62,8 @@ ul {
 }
 
 .navbar a:hover {
-  border-bottom: 2px #fff solid;
-  color: #ddd;
+  border-bottom: 2px #fff dashed;
+  color: #aaa;
 }
 
 button {
