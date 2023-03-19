@@ -8,7 +8,9 @@ body {
   font-size: 16px;
   line-height: 1.5;
   color: #333;
-  background: linen;
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+  height: 948.3px;
+  font-family: 'Times New Roman';
 }
 
 ul {
@@ -22,14 +24,14 @@ ul {
 }
 
 .main {
-  color: blue;
+  color: DarkSlateGray;
   line-height: 2.5;
 }
 
 .navbar {
   background-color: black;
   color: #fff;
-  height: 60px;
+  height: 50px;
 }
 
 .navbar .container {
@@ -66,17 +68,51 @@ ul {
   color: #aaa;
 }
 
+h1 {
+  color: rgb(0, 229, 255);
+  text-shadow: 2px 2px 4px #000000;
+}
+
 button {
   padding: 5px 10px;
   margin: 5px 10px;
   font-size: large;
   font-weight: bold;
   background-color: lightgrey;
-  /* border-radius: 10px;
-    border-width: 0px; */
+  border-radius: 10px;
+  border-width: 1px;
+  transition-duration: 0.5s;
 }
 
-button:hover {
+.button1:hover {
+  color: red;
+  background-color: pink;
+}
+.button2:hover {
+  color: red;
+  background-color: Lightblue;
+}
+.button3:hover {
+  color: red;
+  background-color: yellow;
+}
+.button4:hover {
+  color: red;
+  background-color: green;
+}
+.button5:hover {
+  color: red;
+  background: linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%);
+}
+.button6:hover {
+  color: red;
+  background-color: orange;
+}
+.button7:hover {
+  color: red;
+  background-color: blue;
+}
+.button8:hover {
   color: red;
   background-color: yellow;
 }

@@ -1,17 +1,24 @@
-document.getElementById('time').innerHTML = new Date().toLocaleString();
+function time() {
+  document.getElementById('time').innerHTML = new Date().toLocaleString();
+}
+
+setInterval(time, 1000);
 
 function pink() {
-  document.body.style.backgroundColor = 'pink';
+  document.body.style.background = 'pink';
 }
-
 function lightblue() {
-  document.body.style.backgroundColor = 'lightblue';
+  document.body.style.background = 'lightblue';
 }
 function yellow() {
-  document.body.style.backgroundColor = 'yellow';
+  document.body.style.background = 'yellow';
+}
+function green() {
+  document.body.style.background = 'green';
 }
 function reset() {
-  document.body.style.backgroundColor = 'linen';
+  document.body.style.background =
+    'linear-gradient(to bottom, #33ccff 0%, #ff99cc 100%)';
 }
 
 function showhtml() {
